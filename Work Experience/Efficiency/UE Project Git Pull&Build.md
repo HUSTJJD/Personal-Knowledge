@@ -64,18 +64,12 @@ rem 返回上级目录
 cd /d "!script_dir!"
 
 echo Start Building...
-!script_dir!YYYYY\Engine\Build\BatchFiles\Build.bat -Target="XXXXXEditor Win64 Development -Project=\"!script_dir!XXXXX\XXXXX.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild
+call !script_dir!YYYYY\Engine\Build\BatchFiles\Build.bat -Target="XXXXXEditor Win64 Development -Project=\"!script_dir!XXXXX\XXXXX.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild
 echo End   Building...
 
-pause 30
+start rider64.exe "!script_dir!XXXXX\XXXXX.sln"
 
-rider64.exe "!script_dir!XXXXX\XXXXX.sln"
-
-pause 30
-
-code "!script_dir!XXXXX\XXXXX.code-workspace"
-
-pause 30
+start code "!script_dir!XXXXX\XXXXX.code-workspace"
 
 start !script_dir!YYYYY\Engine\Binaries\Win64\UE4Editor.exe !script_dir!XXXXX\XXXXX.uproject
 
