@@ -1,35 +1,47 @@
-
+# Misc
 CS自学指南 https://csdiy.wiki/
 
-# 人工智能
-
-
-
-
-# 编译原理
-
-
-
-
-# 计算机图形学
-
-GAMES系列课程 https://games-cn.org/
-
-
-
-# 计算机网络
-
-
-
-
-# 计算机组成原理
-
-
-
-# 算法
-
+# Data Structures & Algorithm
 信息学奥林匹克竞赛 https://oi-wiki.org/
 
+## Misc
 
+## Tree
 
-# 操作系统
+## Hash
+
+## Linear
+
+## Graph
+
+## Dynamic Programming
+
+## Basic Algorithm
+
+## String
+
+# Artificial Intelligence
+
+## Generative AI
+
+## Reinforcement Learning
+
+# Computer Graphics
+GAMES系列课程 https://games-cn.org/
+
+## Simulation
+
+## Animation
+
+## Rendering
+
+## Geometry
+
+# Operating system
+
+# Compilation Principle
+
+# Computer Organization
+
+# Computer Network
+
