@@ -1,3 +1,8 @@
 {
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "textFontFamily": "宋体,Times New Roman",
+  "monospaceFontFamily": "Consolas",
+  "cssTheme": "",
+  "interfaceFontFamily": "宋体,Times New Roman",
+  "nativeMenus": true
 }
