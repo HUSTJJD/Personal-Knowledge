@@ -14,6 +14,7 @@ C++ 参考手册 https://c-cpp.com/cpp
 # C#
 
 # Rust
+Rust 程序设计语言 https://rustwiki.org/zh-CN/book/title-page.html
 
 # Design Pattern
 设计模式 https://refactoringguru.cn/design-patterns

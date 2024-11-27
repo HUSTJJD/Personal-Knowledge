@@ -6,25 +6,25 @@ https://github.com/HUSTJJD
 
 在职，正在找工作 上海 UE客户端开发 40k-45k
 
-![[CV.jpeg]]
+<center>![[CV.jpeg]]</center>
 
 ---
 
 ## 专业技能
 游戏开发：UE C/C++ UnLua Python Rust(兴趣) TS(兴趣)
-熟悉模块：UMG、Gameplay、UBT
-工具链：Rider VisualStudio VisualStudioCode AndroidStudio XCode GDB Perfdog UnrealInsights RenderDoc Git
+熟悉模块：UMG、Gameplay、UBT、UTexture
+常用工具：Rider VisualStudio VisualStudioCode AndroidStudio XCode GDB Perfdog UnrealInsights RenderDoc Git MarkDown
 人工智能：计算机视觉、生成模型、强化学习
 图形学：物理模拟、流体仿真、渲染
 ## 工作经历
 腾讯科技（上海）有限公司  游戏客户端开发 T7 天美T1工作室
 2023.03 - 至今
 **元梦之星**
-- 负责UGC地图数据系统的搭建，包含序列化、保存加载、文件压缩及存储、上传下载、发布审核、引擎工具等开发
+- 负责UGC地图数据系统的搭建，包含文件序列化、保存加载、压缩及存储、加密、上传下载、发布审核、引擎工具等开发
 - 负责图片数据管理、ASTC化的工具链开发及多端协同
 - 负责UGC模块的功能开发，包含负责新手引导、拍照系统、UI元件、AIGC、预设、系统访问等功能，参与高级设置、编程、NPC、Gameplay等开发，负责四足生物、多阵营、多关卡、大乱斗玩法等预研
 - 负责效能工具开发，包括Crash自动分配工具、地图数据解析工具、CI/CD等
-- 参与UGC模块的内存泄漏、性能、安全、断线重连等问题处理
+- 参与UGC模块的内存泄漏、性能、安全、断线重连等专项问题处理
 - 参与一致性物理引擎-数学物理模块开发
 荣誉：**2024 H1 OutStanding**
 
@@ -35,7 +35,7 @@ https://github.com/HUSTJJD
 - 负责游戏状态设计与算法模型调优，初步验证强化学习AI在该品类中的可行性
 
 **超级QQ秀 - 王者周年庆**
-- 负责关卡Sequence及Gameplay玩法开发
+- 负责关卡Gameplay开发，为TD提供技术支持
 
 工程数值模拟基础算法与模型全国重点实验室  C++开发工程师（兼）
 2020.10 - 2023.05
