@@ -5,6 +5,7 @@ recursionsetmetatable = function(t, index)
     if not mt then mt = {} end
     if not mt.__index then
         mt.__index = index
+        mt.__gc = function(self) self:Dtor() end
         setmetatable(t, mt)
     elseif mt.__index ~= index then
         recursionsetmetatable(mt, index)
@@ -12,8 +13,9 @@ recursionsetmetatable = function(t, index)
 end
 
 local function Class(clsName, ...)
-    local cls = { __type = clsName }
+    local cls = { __cname = clsName }
     local supers = { ... }
+    -- super 可以是table 可以是function
     for _, super in ipairs(supers) do
         local superType = type(super)
         if superType == 'function' then
@@ -24,101 +26,133 @@ local function Class(clsName, ...)
         end
     end
     cls.__index = cls
+    local mt = {
+        __call = function(cls, ...) return cls.New(...) end,
+        -- __gc = function(cls) end
+    }
     if cls.__supers then
-        setmetatable(cls, {
-            __index = function(_, key)
-                for i, super in ipairs(cls.__supers) do
-                    if super[key] then return super[key] end
-                end
+        mt.__index = function(_, key)
+            for i, super in ipairs(cls.__supers) do
+                if super[key] then return super[key] end
             end
-        })
+        end
     end
+    setmetatable(cls, mt)
     -- 必然是成员函数
     cls.CallSuper = function(self, funcName, ...)
-        local stack = { self }
-        local pc = 1
-        while pc > 0 do
-            local from = #stack - pc + 1
-            pc = 0
-            for i = from, #stack do
-                local super = stack[i]
-                if super.__supers then
-                    for _, grandSuper in ipairs(super.__supers) do
-                        pc = pc + 1
-                        table.insert(stack, grandSuper)
-                    end
+        if cls.__supers then
+            for _, super in ipairs(cls.__supers) do
+                local superFunc = super[funcName]
+                if type(superFunc) == 'function' then
+                    superFunc(self, ...)
                 end
             end
         end
-        for i = #stack, 2, -1 do
-            local superFunc = stack[i][funcName]
-            if type(superFunc) == 'function' then
-                superFunc(self, ...)
-            end
-        end
     end
-    if not cls.Construct then
-        cls.Construct = function() end
+    if not cls.Ctor then
+        cls.Ctor = function(self, ...) end
+    end
+    if not cls.Dtor then
+        cls.Dtor = function(self, ...) end
     end
     cls.New = function(...)
-        local instance = cls.__create and cls.__create(...) or {}
-        recursionsetmetatable(instance, cls)
-        if cls.__supers then
-            instance:CallSuper('Construct', ...)
-            instance:Construct(...)
-        else
-            instance:Construct(...)
-        end
-        return instance
+        local self = cls.__create and cls.__create(...) or {}
+        recursionsetmetatable(self, cls)
+        self:Ctor(...)
+        return self
     end
     return cls
 end
 
 local function IsA(self, cls)
-    return self.__type == cls.__type
+    local recursionIsA
+    recursionIsA = function(clsXX, clsB)
+        if clsXX.__supers then
+            for _, super in ipairs(clsXX.__supers) do
+                if recursionIsA(super, clsB) or super.__cname == clsB.__cname then
+                    return true
+                end
+            end
+        end
+    end
+    return recursionIsA(self, cls) or self.__cname == cls.__cname
 end
 
 _G.Class = Class
 _G.IsA = IsA
 
 -- Test Code
-local clsA = _G.Class('a')
-function clsA:Construct()
-    self.name = 'clsA'
-    self.sec_name = 'clsA'
+--[[
+local clsXX = _G.Class('clsXX')
+function clsXX:Ctor(...)
+    self.name = 'objXX'
+    print(self.__cname, clsXX.__cname, 'Ctor', ...)
 end
 
-function clsA:Print()
-    print('sec_name', self.sec_name)
-    print('name', self.name)
+function clsXX:Print(...)
+    print('clsXX Print', self.name, ...)
 end
 
-local clsB = _G.Class('b', clsA)
-function clsB:Construct()
-    self.name = 'clsB'
+function clsXX:Dtor()
+    print('Dtor', self.name, self.__cname, clsXX.__cname)
+
+end
+
+local clsYY = _G.Class('clsYY')
+function clsYY:Ctor(...)
+    self.name = 'objYY'
+    print(self.__cname, clsYY.__cname, 'Ctor', ...)
+end
+
+function clsYY:Print(...)
+    print('clsYY Print', self.name, ...)
+end
+
+function clsYY:Dtor()
+    print('Dtor', self.name, self.__cname, clsYY.__cname)
+end
+
+local clsB = _G.Class('clsB', clsXX)
+function clsB:Ctor(...)
+    clsB.CallSuper(self, 'Ctor', ...)
+    self.name = 'objB'
 end
 
 function clsB:Print(...)
-    self:CallSuper('Print', ...)
+    clsB.CallSuper(self, 'Print', ...)
 end
 
-local clsC = _G.Class('c', clsA, clsB)
-function clsC:Construct()
-    self.name = 'clsC'
+function clsB:Dtor()
+    clsB.CallSuper(self, 'Dtor')
+end
+
+local clsC = _G.Class('clsC', clsB, clsYY)
+function clsC:Ctor(...)
+    clsC.CallSuper(self, 'Ctor', ...)
+    self.name = 'objC'
 end
 
 function clsC:Print(...)
-    self:CallSuper('Print', ...)
+    clsC.CallSuper(self, 'Print', ...)
 end
 
-local objA = clsA.New()
-local objB = clsB.New()
-local objC = clsC.New()
-objA:Print()
+function clsC:Dtor()
+    clsC.CallSuper(self, 'Dtor')
+end
+
+local objXX = clsXX.New()
+local objB = clsB(1)
+local objC = clsC(1, 2, 3)
+objXX:Print()
 objB:Print()
 objC:Print()
-print(_G.IsA(objA, clsA))
-print(_G.IsA(objA, clsB))
-print(_G.IsA(objA, clsC))
-
+print('IsA(objB, clsB)', _G.IsA(objB, clsB))
+print('IsA(objB, clsC)', _G.IsA(objB, clsC))
+print('IsA(objC, clsXX)', _G.IsA(objC, clsXX))
+print('IsA(objC, clsYY)', _G.IsA(objC, clsYY))
+local clsFunc = _G.Class('clsFunc', function()
+    return {}
+end, clsB)
+local objFunc = clsFunc()
+]]
 ```
