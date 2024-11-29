@@ -4,13 +4,14 @@
         <span style="font-family:Georgia;font-size:18px;color:#262626;font-weight:bold">姜钧窦</span>
         <br>
         <span style="font-size:13px;">&#x1F3D8;</span> <span style="font-family:Open Sans;font-size:13px;color:#595959;">上海 | </span>
-        <span style="font-size:13px;">&#x1F4DE;</span> <span style="font-family:Open Sans;font-size:13px;color:#595959;">13368730923 | 24岁 | 男 </span>
+        <span style="font-size:13px;">&#x1F4DE;</span> <span style="font-family:Open Sans;font-size:13px;color:#595959;">13368730923 | 25岁 | 男 </span>
         <br>
-        <span style="font-size:13px;">&#x1F4E7;</span> <a href="u201613094@alumni.hust.edu.cn", style="font-family:Open Sans;font-size:13px;">u201613094@alumni.hust.edu.cn</a>
+        <span style="font-size:13px;">&#x1F4E7;</span> <a href="mailto:u201613094@alumni.hust.edu.cn", style="font-family:Open Sans;font-size:13px;">u201613094@alumni.hust.edu.cn</a>
         </font><img src="resoure/github.jpg" width="13px"> <a href="https://github.com/HUSTJJD", style="font-family:Open Sans;font-size:13px;">HUSTJJD</a>
         <span style="font-size:13px">&#x1F5A5;</span> <a href="https://hustjjd.github.io/", style="font-family:Open Sans;font-size:13px;">Blog</a>
     </div>
 </center>
+
 
 ### <span style="font-family:Georgia;font-size:16px;color:#262626"> 技能 </span>
 
@@ -26,7 +27,7 @@
 
 - 负责UGC地图数据系统的搭建，包含文件序列化、保存加载、压缩及存储、加密、上传下载、发布审核、引擎工具等开发
 - 负责图片数据管理、ASTC化的工具链开发及多端协同
-- 负责UGC模块的功能开发，包含负责新手引导、拍照系统、UI元件、AIGC、预设、系统访问等功能，参与高级设置、编程、NPC、Gameplay等开发，负责四足生物、多阵营、多关卡、大乱斗玩法等预研
+- 负责UGC模块的功能开发，包含负责新手引导、拍照系统、UI元件、AIGC、预设、系统访问等功能，参与高级设置、编程、NPC、Gameplay、UGC分大厅等开发，负责四足生物、多阵营、多关卡、大乱斗玩法等预研
 - 负责效能工具开发，包括Crash自动分配工具、地图数据解析工具、CI/CD等
 - 参与UGC模块的内存泄漏、性能、安全、断线重连等专项问题处理
 - 参与一致性物理引擎-数学物理模块开发，参与开源组件trpc开发
