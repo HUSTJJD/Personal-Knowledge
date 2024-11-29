@@ -1,3 +1,5 @@
+# 源码
+
 ```Lua
 local recursionsetmetatable
 recursionsetmetatable = function(t, index)
@@ -80,9 +82,12 @@ end
 
 _G.Class = Class
 _G.IsA = IsA
+```
 
+# 测试代码
+
+```Lua
 -- Test Code
---[[
 local clsXX = _G.Class('clsXX')
 function clsXX:Ctor(...)
     self.name = 'objXX'
@@ -95,7 +100,6 @@ end
 
 function clsXX:Dtor()
     print('Dtor', self.name, self.__cname, clsXX.__cname)
-
 end
 
 local clsYY = _G.Class('clsYY')
@@ -154,5 +158,4 @@ local clsFunc = _G.Class('clsFunc', function()
     return {}
 end, clsB)
 local objFunc = clsFunc()
-]]
 ```
