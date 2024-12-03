@@ -12,18 +12,17 @@
     </div>
 </center>
 
+### <span style="font-family:Georgia;font-size:16px;color:#262626"> **Skill** </span>
 
-### <span style="font-family:Georgia;font-size:16px;color:#262626"> 技能 </span>
+- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Programming: </span> **C/C++ | Lua | Python**  INTEREST( Rust | TS )
+- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Unreal Engine: </span> UMG | Gameplay | UBT | Unlua
+- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Tools: </span> Rider | VisualStudio | VisualStudioCode | AndroidStudio | XCode | GDB | PerfDog | UnrealInsights | RenderDoc | CMake | Git | MarkDown
+- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Machine Learning: </span> Computer Vision、Generative Model、Reinforcement Learning
+- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Graphics: </span> Fluid Simulation、Animation、Rendering
 
-- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Programming：</span> **C/C++ | Lua | Python**  INTEREST( Rust | TS )
-- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Unreal Engine：</span> UMG | Gameplay | UBT | Unlua
-- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Tools: </span> Rider | VisualStudio | VisualStudioCode | AndroidStudio | XCode | GDB | PerfDog | UnrealInsights | RenderDoc | Git | MarkDown
-- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Machine Learning：</span> Computer Vision、Generative Model、Reinforcement Learning
-- <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Graphics：</span> Fluid Simulation、Animation、Rendering
+### <span style="font-family:Georgia;font-size:16px;color:#262626"> **Experience** </span>
 
-### <span style="font-family:Georgia;font-size:16px;color:#262626"> 经历 </span>
-
-<span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;"> 元梦之星 </span><span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#595959;margin:20px;"> 游戏客户端开发, 腾讯天美工作室 </span> <span style="font-size:13px;font-family:Open Sans;color:#595959;float:right"> 2023.03 - </span>
+<span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;"> 元梦之星 </span><span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#595959;margin:20px;"> 游戏客户端开发, 腾讯天美T1 Studio </span> <span style="font-size:13px;font-family:Open Sans;color:#595959;float:right"> 2023.03 - </span>
 
 - 负责UGC地图数据系统的搭建，包含文件序列化、保存加载、压缩及存储、加密、上传下载、发布审核、引擎工具等开发
 - 负责图片数据管理、ASTC化的工具链开发及多端协同
@@ -31,9 +30,9 @@
 - 负责效能工具开发，包括Crash自动分配工具、地图数据解析工具、CI/CD等
 - 参与UGC模块的内存泄漏、性能、安全、断线重连等专项问题处理
 - 参与一致性物理引擎-数学物理模块开发，参与开源组件trpc开发
-荣誉：**2024 H1 OutStanding**
+  荣誉：**2024 H1 OutStanding**
 
-<span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;"> 爆笑向前冲 | 超级QQ秀-王者周年庆 </span><span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#595959;margin:20px"> 实习, 腾讯美工作室 </span> <span style="font-size:13px;font-family:Open Sans;color:#595959;float:right"> 2022.05 - 2022.08 </span>
+<span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;"> 爆笑向前冲 | 超级QQ秀-王者周年庆 </span><span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#595959;margin:20px"> 实习, 腾讯天美T1 </span> <span style="font-size:13px;font-family:Open Sans;color:#595959;float:right"> 2022.05 - 2022.08 </span>
 
 - 负责强化学习AI的SDK接入与训练框架搭建
 - 负责游戏状态设计与算法模型调优，初步验证强化学习AI在该品类中的可行性
@@ -45,9 +44,9 @@
 - 负责Perl、Scheme逻辑层和Fortran、C算法库的解析，基于QT、Python进行重构和二次开发
 - 负责HPC集群Slurm、Docker的搭建和使用培训
 - 参与软件架构、几何参数化的研究
-成果：龙驰通用网格生成软件获“**2024优秀自主工业仿真软件**”荣誉称号
+  成果：龙驰通用网格生成软件获“**2024优秀自主工业仿真软件**”荣誉称号
 
-### <span style="font-family:Georgia;font-size:16px;color:#262626"> 教育 </span>
+### <span style="font-family:Georgia;font-size:16px;color:#262626"> **Education** </span>
 
 <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;"> 硕士 | 计算机技术 </span><span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#595959;margin:20px"> 四川大学 </span> <span style="font-size:13px;font-family:Open Sans;color:#595959;float:right"> 2020.09 - 2023.06 </span>
 
@@ -60,16 +59,17 @@
 - 荣誉/奖项：院学生会主席（2019）、优秀毕业生代表、校学生代表、优秀学生干部、优秀共青团员、文体奖学金（2019）、公益奖学金（2017-2018）
 - 研究经历：复杂食品样品中的雌激素含量分析研究，基于分子对接的獐牙菜属植物药用价值研究
 
-### <span style="font-family:Georgia;font-size:16px;color:#262626"> 成果 </span>
+### <span style="font-family:Georgia;font-size:16px;color:#262626"> **Experience** </span>
 
 - <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">Jundou Jiang</span>,Guanxiong Li,Yi Jiang,Laiping Zhang,Xiaogang Deng,TransCFD: A transformer-based decoder for flow field prediction,EAAI,Volume 123,Part B,2023,106340,ISSN 0952-1976,https://doi.org/10.1016/j.engappai.2023.106340. **JCR Q1, IF 7.5, CI 18.**
 - <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">姜钧窦</span>,姜屹,陈亮中,等.基于Transformer解码器网络的翼型流场预测方法. CN202211469160.1 [2024-11-22]. 主要完成人,已授权.
 - <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">姜钧窦</span>,朱一秦,杨越.虚拟关卡的颜色变更方法、装置、设备及存储介质. 202311083008.4. 主要完成人,审查中.
 - 杨越,<span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">姜钧窦</span>,刘思博.图像生成方法、装置、设备及存储介质. 202311109510.8. 主要完成人,审查中.
 
-### <span style="font-family:Georgia;font-size:16px;color:#262626"> 杂项 </span>
+### <span style="font-family:Georgia;font-size:16px;color:#262626"> **Misc** </span>
 
 - <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">技能. </span> Ansys ICEM、Fluent、PointWise等流体仿真软件，Adobe音视频软件，Office
 - <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">证书/执照. </span> 计算机四级（网络）、英语（CET-6）、高中物理教师资格证
 - <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">兴趣. </span> 骑行、摄影、篮球
 - <span style="font-size:13px;font-family:Open Sans;font-weight:bold;color:#1d824c;">自评. </span> 做事踏实认真负责，执行能力强，有owner意识，具备快速学习能力，新技术上手速度快
+
