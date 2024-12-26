@@ -38,6 +38,7 @@ GAMES系列课程 https://games-cn.org/
 ## Geometry
 
 # Operating system
+操作系统：设计与实现 (2024 春季学期) https://jyywiki.cn/OS/2024/
 
 # Compilation Principle
 
