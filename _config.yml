@@ -104,5 +104,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:HUSTJJD/HUSTJJD.github.io.git
+  repo: https://github.com/HUSTJJD/HUSTJJD.github.io.git
   branch: main
