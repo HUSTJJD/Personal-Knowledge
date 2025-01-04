@@ -1,6 +1,14 @@
 ---
-abbrlink: 3
+title: UE Project Git Pull&Build
+abbrlink: 60570
+categories:
+  - Work Experience
+  - Efficiency
+date: 2025-01-04 15:20:24
+tags:
 ---
+
+
 使用UGit管理项目，设置定时任务每日自动唤醒计算机并执行该脚本。
 
 ```

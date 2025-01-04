@@ -16,5 +16,12 @@
   "showLineNumber": false,
   "rightToLeft": false,
   "propertiesInDocument": "source",
-  "livePreview": false
+  "livePreview": false,
+  "userIgnoreFilters": [
+    "node_modules/",
+    "themes/",
+    "scaffolds/",
+    "Resume/",
+    "public/"
+  ]
 }

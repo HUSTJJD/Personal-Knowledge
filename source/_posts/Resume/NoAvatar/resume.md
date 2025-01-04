@@ -1,6 +1,15 @@
 ---
-abbrlink: 8
+title:
+  '[object Object]': null
+date:
+  '[object Object]': null
+abbrlink: 60571
+categories:
+  - Resume
+  - NoAvatar
+tags:
 ---
+
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
 # 姜钧窦
 <!-- The unordered list immediately after the h1 will be formatted on a single

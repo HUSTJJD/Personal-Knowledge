@@ -1,5 +1,5 @@
 ---
-title: movies
+comments: false
 date: 2024-12-28 17:42:58
-type:
+type: "movies"
 ---

@@ -1,6 +1,13 @@
 ---
-abbrlink: 119
+title: Z Reference Link
+abbrlink: 60552
+categories:
+  - Programing
+date: 2025-01-04 15:17:19
+tags:
 ---
+
+
 # Misc
 
 # C&C++

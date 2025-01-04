@@ -820,13 +820,13 @@ google_adsense:
   # 是否啟用
   enable: false
   # 是否自動投放廣告
-  auto_ads: true
+  auto_ads: false
   # 廣告腳本 URL
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   # 客户 ID
   client:
   # 是否啟用頁面級廣告
-  enable_page_level_ads: true
+  enable_page_level_ads: false
 
 # 手動插入廣告配置，如果不需要廣告則留空
 ad:

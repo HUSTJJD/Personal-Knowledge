@@ -1,6 +1,13 @@
 ---
-abbrlink: 120
+title: Z Reference Link
+abbrlink: 60550
+categories:
+  - Base Knowledge
+date: 2025-01-04 15:12:34
+tags:
 ---
+
+
 # Misc
 CS自学指南 https://csdiy.wiki/
 

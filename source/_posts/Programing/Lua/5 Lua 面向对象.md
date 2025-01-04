@@ -1,6 +1,14 @@
 ---
-abbrlink: 31
+title: 5 Lua 面向对象
+abbrlink: 60586
+categories:
+  - Programing
+  - Lua
+date: 2025-01-04 15:16:45
+tags:
 ---
+
+
 # 源码
 
 ```Lua
