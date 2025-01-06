@@ -64,7 +64,7 @@ social:
 # --------------------------------------
 
 # 網站的 favicon 圖標
-favicon: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon-16x16.png
+favicon: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon.ico
 
 # 頭像設置
 avatar:
@@ -107,7 +107,7 @@ footer_img: false
 # 網站背景
 # 可以設置為顏色或圖片
 # 圖片格式: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(https://cdn.jsdelivr.net/gh/HUSTJJD/photos/background.webp)
 
 # 封面設置
 cover:
@@ -125,9 +125,9 @@ cover:
 # 替換損壞的圖片
 error_img:
   # 友鏈頁面的錯誤圖片
-  flink: /images/404.jpg
+  flink: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/404.jpg
   # 文章頁面的錯誤圖片
-  post_page: /images/404.jpg
+  post_page: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/404.jpg
 
 # 簡單的 404 頁面
 error_404:
@@ -907,7 +907,7 @@ mask:
 # 加載動畫
 preloader:
   # 是否啟用加載動畫
-  enable: false
+  enable: true
   # 資源
   # 1. 全屏加載
   # 2. 進度條
@@ -1177,13 +1177,13 @@ pwa:
   # PWA manifest 文件路徑
   manifest:
   # Apple Touch 圖標路徑
-  apple_touch_icon: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/apple-touch-icon.png
+  apple_touch_icon: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon.ico
   # 32x32 像素的 favicon 圖標路徑
-  favicon_32_32: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon-32x32.png
+  favicon_32_32: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon.ico
   # 16x16 像素的 favicon 圖標路徑
-  favicon_16_16: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon-16x16.png
+  favicon_16_16: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon.ico
   # mask 圖標路徑
-  mask_icon: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon-16x16.png
+  mask_icon: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/favicon.ico
 
 # Open graph meta tags
 # 參見 https://hexo.io/docs/helpers#open-graph

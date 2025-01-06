@@ -5,13 +5,13 @@ date: 2022-03-05 18:09:23
 ---
 
 
-{% blockquote 培根%}
+ {% blockquote 培根%}
 Abeunt studia in morse.
 ---
-{% endblockquote %}
+ {% endblockquote %}
 ---
 
-<img src="/images/about.jpeg" width="200" height="200"/>
+<img src="https://cdn.jsdelivr.net/gh/HUSTJJD/photos/images/about.jpeg" width="200" height="200"/>
 
 99年生人 :boy:
 一个热爱折腾的大龄码农
