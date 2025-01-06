@@ -11,7 +11,7 @@ Abeunt studia in morse.
  {% endblockquote %}
 ---
 
-<img src="https://cdn.jsdelivr.net/gh/HUSTJJD/photos/images/about.jpeg" width="200" height="200"/>
+<img src="https://cdn.jsdelivr.net/gh/HUSTJJD/photos/about.jpeg" width="200" height="200"/>
 
 99年生人 :boy:
 一个热爱折腾的大龄码农
