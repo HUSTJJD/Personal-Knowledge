@@ -71,13 +71,13 @@ avatar:
   # 頭像圖片鏈接
   img: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/avatar.jpeg
   # 是否啟用頭像效果
-  effect: false
+  effect: true
 
 # 禁用所有橫幅圖片
 disable_top_img: false
 
 # 如果頁面未設置橫幅，則顯示默認的橫幅圖片
-default_top_img:
+default_top_img: https://cdn.jsdelivr.net/gh/HUSTJJD/photos/background.webp
 
 # 主頁的橫幅圖片
 index_img:
@@ -102,12 +102,12 @@ category_img:
 category_per_img:
 
 # 頁腳的背景圖片
-footer_img: false
+footer_img: true
 
 # 網站背景
 # 可以設置為顏色或圖片
 # 圖片格式: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://cdn.jsdelivr.net/gh/HUSTJJD/photos/background.webp)
+background:
 
 # 封面設置
 cover:
@@ -176,7 +176,7 @@ post_meta:
 # 站點信息的位置，例如: 300px/300em/300rem/10%
 index_site_info_top:
 # 頭圖的高度，例如: 300px/300em/300rem
-index_top_img_height:
+index_top_img_height: 400px
 
 # 首頁的副標題設置
 subtitle:
