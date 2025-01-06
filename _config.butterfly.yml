@@ -176,7 +176,7 @@ post_meta:
 # 站點信息的位置，例如: 300px/300em/300rem/10%
 index_site_info_top:
 # 頭圖的高度，例如: 300px/300em/300rem
-index_top_img_height: 400px
+index_top_img_height:
 
 # 首頁的副標題設置
 subtitle:
