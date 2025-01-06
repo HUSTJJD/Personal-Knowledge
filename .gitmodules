@@ -1,3 +1,4 @@
 [submodule "source/images"]
 	path = source/images
 	url = https://github.com/HUSTJJD/photos
+	branch = main
