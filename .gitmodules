@@ -1,4 +1,4 @@
-[submodule "source/images"]
-	path = source/images
+[submodule "photos"]
+	path = photos
 	url = https://github.com/HUSTJJD/photos
 	branch = main
