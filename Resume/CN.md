@@ -1,8 +1,4 @@
----
-abbrlink: 7
-categories:
-  - Resume
----
+
 <center>
     <div>
         <img src="resoure/avatar.jpg" style="float:right" width="68" height="80"/>

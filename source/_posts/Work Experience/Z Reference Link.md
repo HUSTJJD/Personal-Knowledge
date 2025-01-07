@@ -1,8 +1,6 @@
 ---
-title:
-  '[object Object]': null
-date:
-  '[object Object]': null
+title: Z Reference Link
+date: 2025-01-07 11:05:26
 abbrlink: 60551
 categories:
   - Work Experience

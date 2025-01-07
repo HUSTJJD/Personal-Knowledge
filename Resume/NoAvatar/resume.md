@@ -1,14 +1,4 @@
----
-title:
-  '[object Object]': null
-date:
-  '[object Object]': null
-abbrlink: 60571
-categories:
-  - Resume
-  - NoAvatar
-tags:
----
+
 
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
 # 姜钧窦

@@ -1,8 +1,6 @@
 ---
-title:
-  '[object Object]': null
-date:
-  '[object Object]': null
+title: 7 Proxy
+date: 2025-01-07 11:05:04
 abbrlink: 60637
 categories:
   - Programing
